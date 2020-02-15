@@ -15,7 +15,7 @@ const WEB_PAGES = array(
     // uvodni stranka
     "uvod" => array("file_name" => "IntroductionController.class.php",
         "class_name" => "IntroductionController",
-        "title" => "Úvodní stránka"),
+        "title" => "Pyšek s.r.o."),
     );
 
 /** Klic defaultni webove stranky. */
