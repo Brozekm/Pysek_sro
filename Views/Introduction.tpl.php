@@ -9,50 +9,14 @@ $tplHeaders->getHeader($tplData['title']);
 ?>
 
     <section class="ftco-section bg-light" id="cards">
-        <div class="container card-styles">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="icon-wrap px-4 pt-4">
-                            <div class="icon d-flex justify-content-center align-items-center bg-info rounded-circle">
-                                <span class="ion-logo-ionic text-light"></span>
-                            </div>
-                        </div>
-                        <div class="card-body pb-5 px-4">
-                            <h5 class="card-title">Card title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="#" class="btn btn-info">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="icon-wrap px-4 pt-4">
-                            <div class="icon d-flex justify-content-center align-items-center bg-success rounded-circle">
-                                <span class="ion-logo-ionic text-light"></span>
-                            </div>
-                        </div>
-                        <div class="card-body pb-5 px-4">
-                            <h5 class="card-title">Card title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="#" class="btn btn-success">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="icon-wrap px-4 pt-4">
-                            <div class="icon d-flex justify-content-center align-items-center bg-warning rounded-circle">
-                                <span class="ion-logo-ionic text-light"></span>
-                            </div>
-                        </div>
-                        <div class="card-body pb-5 px-4">
-                            <h5 class="card-title">Card title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="#" class="btn btn-warning">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+        <div class="container jumbotron bg-white card-styles">
+            <div>
+                <h1 class="">O nás</h1>
+                <hr>
+                <figure>
+                    <img src="images/PIP_10.jpg" style="width: 250px; float: right">
+                </figure>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis. Arcu non odio euismod lacinia at quis risus sed. Diam donec adipiscing tristique risus nec. Pellentesque sit amet porttitor eget. Viverra suspendisse potenti nullam ac. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Semper quis lectus nulla at volutpat diam ut venenatis. Aliquam sem fringilla ut morbi tincidunt augue. Viverra nam libero justo laoreet sit amet cursus. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Et malesuada fames ac turpis egestas sed tempus urna. Nisl suscipit adipiscing bibendum est ultricies integer quis. Sed risus ultricies tristique nulla aliquet enim tortor at. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Facilisis volutpat est velit egestas dui. Pellentesque habitant morbi tristique senectus et netus.</p>
             </div>
         </div>
     </section>

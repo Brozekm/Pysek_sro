@@ -8,7 +8,7 @@ class ZakladSablona{
         <!DOCTYPE html>
         <html lang="en">
         <head>
-            <title>Pyšek, s.r.o.</title>
+            <title><?php echo $pageTitle ?></title>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,14 +22,14 @@ class ZakladSablona{
 
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Pyšek, s.r.o.</a>
+                <a class="navbar-brand" href="index.php?page=uvod"><img src="images/PIP_10.jpg" alt="Logo" style="width:40px; border-radius: 50%"> Pyšek, s.r.o.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="oi oi-menu"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Úvod</a>
+                            <a class="nav-link" href="index.php?page=uvod">Úvod</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Služby</a>
@@ -56,7 +56,7 @@ class ZakladSablona{
                             <h3 class="mb-5" style="color: white">zeměměřické práce, s.r.o.</h3>
                             <div class="designed d-inline-block">
                                 <d class="d-flex align-items-center">
-                                    <div class="img" style="background-image: url(images/PIP_10.jpg);"></div>
+
                                     <!--<div class="ml-3"><p class="mb-0">Kontaktovat</p></div>-->
                                     <a href="#" class="btn btn-outline-white btn-md ">Kontaktovat</a>
                                 </d>
