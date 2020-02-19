@@ -23,22 +23,21 @@ class ZakladSablona{
         <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
             <div class="container">
                 <a class="navbar-brand" href="index.php?page=uvod"><img src="images/PIP_10.jpg" alt="Logo" style="width:40px; border-radius: 50%"> Pyšek, s.r.o.</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="oi oi-menu"></span>
+                <button class="navbar-toggler fa fa-bars" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=uvod"><span class="fa fa-home" style="color: white"></span> Úvod</a>
+                            <a class="nav-link" href="index.php?page=uvod"><span class="fa fa-home"></span> Úvod</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-cog" style="color: white"></span> Služby</a>
+                            <a class="nav-link" href="#"><span class="fa fa-cog"></span> Služby</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-history" style="color: white"></span> Reference</a>
+                            <a class="nav-link" href="#"><span class="fa fa-history"></span> Reference</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-phone" style="color: white"></span> Kontaktovat</a>
+                            <a class="nav-link" href="#"><span class="fa fa-phone"></span> Kontaktovat</a>
                         </li>
                     </ul>
                 </div>
@@ -56,8 +55,6 @@ class ZakladSablona{
                             <h3 class="mb-5" style="color: white; text-shadow: 2px 2px black">zeměměřické práce, s.r.o.</h3>
                             <div class="designed d-inline-block">
                                 <d class="d-flex align-items-center">
-
-                                    <!--<div class="ml-3"><p class="mb-0">Kontaktovat</p></div>-->
                                     <a href="#" class="btn btn-outline-white btn-md ">Kontaktovat</a>
                                 </d>
                             </div>
@@ -73,47 +70,6 @@ class ZakladSablona{
 
     public function getFooter(){
         ?>
-        <!--
-        <div class="text-center" >
-            <h3 style="color: gray; font-family: Arial; padding: 10px">Spolupracujeme</h3>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="images/biggest1.png" class="rounded" width="90%" >
-                </div>
-                <div class="col-3">
-                    <img src="images/swietelsky.jpg" class="rounded" width="90%" >
-                </div>
-                <div class="col-3">
-                    <img src="images/strabag.png" class="rounded" width="90%">
-                </div>
-                <div class="col-3">
-                    <img src="images/roadfin.jpg" class="rounded" width="90%">
-                </div>
-            </div>
-             <div class="row">
-                <div class="col-2">
-                    </div>
-                <div class="col-2">
-                    <img src="images/vida.png" class="rounded" width="90%" >
-                </div>
-                <div class="col-2">
-                    <img src="images/swietelsky.jpg" class="rounded" width="90%" >
-                </div>
-                <div class="col-2">
-                    <img src="images/strabag.png" class="rounded" width="90%">
-                </div>
-                 <div class="col-2">
-                    <img src="images/roadfin.jpg" class="rounded" width="90%">
-                </div>
-                <div class="col-2">
-                    </div>
-
-              </div>
-
-        </div>
-        -->
         <div class="text-center" >
             <h3 style="color: gray; font-family: Arial; padding: 10px">Spolupracujeme</h3>
         </div>
