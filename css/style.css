@@ -9670,3 +9670,15 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 700;
   font-size: 22px; }
+
+img.logo{
+  width: 250px;
+  float: right;
+}
+
+@media screen and (max-width: 480px){
+
+    img.logo{
+      width: 50%;
+    }
+}
