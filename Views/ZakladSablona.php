@@ -13,8 +13,8 @@ class ZakladSablona{
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
             <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-
             <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>
         <body>
 
@@ -28,17 +28,17 @@ class ZakladSablona{
                 </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.php?page=uvod">Úvod</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=uvod"><span class="fa fa-home" style="color: white"></span> Úvod</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Služby</a>
+                            <a class="nav-link" href="#"><span class="fa fa-cog" style="color: white"></span> Služby</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Reference</a>
+                            <a class="nav-link" href="#"><span class="fa fa-history" style="color: white"></span> Reference</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Kontaktovat</a>
+                            <a class="nav-link" href="#"><span class="fa fa-phone" style="color: white"></span> Kontaktovat</a>
                         </li>
                     </ul>
                 </div>
@@ -52,8 +52,8 @@ class ZakladSablona{
                 <div class="row description align-items-center justify-content-center">
                     <div class="col-md-8 text-center">
                         <div class="text">
-                            <h2 class="mb-5">PYŠEK</h2>
-                            <h3 class="mb-5" style="color: white">zeměměřické práce, s.r.o.</h3>
+                            <h2 class="mb-5" style="text-shadow: 2px 2px black">PYŠEK</h2>
+                            <h3 class="mb-5" style="color: white; text-shadow: 2px 2px black">zeměměřické práce, s.r.o.</h3>
                             <div class="designed d-inline-block">
                                 <d class="d-flex align-items-center">
 
