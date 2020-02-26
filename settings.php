@@ -16,6 +16,9 @@ const WEB_PAGES = array(
     "uvod" => array("file_name" => "IntroductionController.class.php",
         "class_name" => "IntroductionController",
         "title" => "Pyšek s.r.o."),
+    "reference" => array("file_name" => "ReferencesController.class.php",
+        "class_name" => "ReferencesController",
+        "title" => "Reference"),
     );
 
 /** Klic defaultni webove stranky. */

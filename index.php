@@ -29,10 +29,13 @@ class ApplicationStart {
     public function appStart(){
         //// test, zda je v URL pozadavku uvedena dostupna stranka, jinak volba defaultni stranky
         // mam spravnou hodnotu na vstupu nebo nastavim defaultni
-
+        if(isset($_GET["page"]) && array_key_exists($_GET["page"], WEB_PAGES)){
+            $pageKey = $_GET["page"];
+            $pageInfo = WEB_PAGES[$pageKey];
+        } else {
             $pageKey = DEFAULT_WEB_PAGE_KEY; // defaulti klic
             $pageInfo = WEB_PAGES[$pageKey];
-
+        }
         // pripravim si data ovladace
         //$pageInfo = WEB_PAGES[$pageKey];
 
