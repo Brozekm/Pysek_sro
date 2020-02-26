@@ -9,7 +9,7 @@ $tplHeaders->getHeader($tplData['title']);
 ?>
 
     <section class="ftco-section bg-light" id="cards">
-        <div class="container jumbotron bg-white card-styles">
+        <div class="container jumbotron bg-white card-styles shadow">
             <div>
                 <h1>O nás</h1>
                 <hr>
