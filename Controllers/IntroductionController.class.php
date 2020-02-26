@@ -7,6 +7,8 @@ require_once(DIRECTORY_CONTROLLERS."/IController.interface.php");
  */
 class IntroductionController implements IController {
 
+
+
     /**
      * Vrati obsah uvodni stranky.
      * @param string $pageTitle     Nazev stranky.
