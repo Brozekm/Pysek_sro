@@ -19,6 +19,9 @@ const WEB_PAGES = array(
     "reference" => array("file_name" => "ReferencesController.class.php",
         "class_name" => "ReferencesController",
         "title" => "Reference"),
+    "kontakt" => array("file_name" => "ContactController.class.php",
+        "class_name" => "ContactController",
+        "title" => "Kontaktovat")
     );
 
 /** Klic defaultni webove stranky. */
