@@ -28,16 +28,16 @@ class ZakladSablona{
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=uvod"><span class="fa fa-home"></span> Úvod</a>
+                            <a class="nav-link"  href="index.php?page=uvod"><span class="fa fa-home" style="color: <?php if ($pageTitle == "Pyšek s.r.o."){echo "#1faae5";}?>"></span> Úvod</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-cog"></span> Služby</a>
+                            <a class="nav-link" style="color: <?php if ($pageTitle == "Služby"){echo "#1faae5";}?>"href="#"><span class="fa fa-cog" style="color: <?php if ($pageTitle == "Služby"){echo "#1faae5";}?>"></span> Služby</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-history"></span> Reference</a>
+                            <a class="nav-link" href="index.php?page=reference"><span class="fa fa-history" style="color: <?php if ($pageTitle == "Reference"){echo "#1faae5";}?>"></span> Reference</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=kontakt"><span class="fa fa-phone"></span> Kontaktovat</a>
+                            <a class="nav-link" style="color: <?php if ($pageTitle == "Kontaktovat"){echo "#1faae5";}?>"href="index.php?page=kontakt"><span class="fa fa-phone" style="color: <?php if ($pageTitle == "Kontaktovat"){echo "#1faae5";}?>"></span> Kontaktovat</a>
                         </li>
                     </ul>
                 </div>
@@ -92,16 +92,16 @@ class ZakladSablona{
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=uvod"><span class="fa fa-home"></span> Úvod</a>
+                            <a class="nav-link"  href="index.php?page=uvod"><span class="fa fa-home" style="color: <?php if ($pageTitle == "Pyšek s.r.o."){echo "#1faae5";}?>"></span> Úvod</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-cog"></span> Služby</a>
+                            <a class="nav-link" style="color: <?php if ($pageTitle == "Služby"){echo "#1faae5";}?>"href="#"><span class="fa fa-cog" style="color: <?php if ($pageTitle == "Služby"){echo "#1faae5";}?>"></span> Služby</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><span class="fa fa-history"></span> Reference</a>
+                            <a class="nav-link" href="index.php?page=reference"><span class="fa fa-history" style="color: <?php if ($pageTitle == "Reference"){echo "#1faae5";}?>"></span> Reference</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=kontakt"><span class="fa fa-phone"></span> Kontaktovat</a>
+                            <a class="nav-link" href="index.php?page=kontakt"><span class="fa fa-phone" style="color: <?php if ($pageTitle == "Kontaktovat"){echo "#1faae5";}?>"></span> Kontaktovat</a>
                         </li>
                     </ul>
                 </div>
