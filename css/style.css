@@ -9688,3 +9688,21 @@ img.logo{
     margin-bottom: 100px;
   }
 }
+
+.column{
+  float: left;
+  padding: 10px;
+}
+
+.left{
+  width: 10%;
+  font-weight: bold;
+}
+
+.center{
+  width: 75%;
+}
+
+.right{
+  width: 15%;
+}

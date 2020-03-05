@@ -18,9 +18,9 @@ $tplHeaders->getContactHeader($tplData['title']);
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
                             <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
-                            <span class="fa fa-phone"></span> +420 731 046 883
+                            <span class="fa fa-phone"></span> +420 605 732 874
                             <hr>
-                            <span class="fa fa-envelope"></span> brozekm@gmail.com
+                            <span class="fa fa-envelope"></span> mbrozek@volny.cz
                         </div>
                     </div>
 
@@ -29,13 +29,13 @@ $tplHeaders->getContactHeader($tplData['title']);
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
                             <img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                            <h5 class="card-title">Ivan Pyšek</h5>
+                            <h5 class="card-title">Ing. Ivan Pyšek</h5>
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
                             <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
-                            <span class="fa fa-phone"></span> +420 731 046 883
+                            <span class="fa fa-phone"></span> +420 603 106 529
                             <hr>
-                            <span class="fa fa-envelope"></span> brozekm@gmail.com
+                            <span class="fa fa-envelope"></span> pysek@volny.cz
                         </div>
                     </div>
 
@@ -44,13 +44,13 @@ $tplHeaders->getContactHeader($tplData['title']);
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
                             <img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                            <h5 class="card-title">Martin Grotz</h5>
+                            <h5 class="card-title">Ing. Martin Grotz</h5>
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
                             <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
-                            <span class="fa fa-phone"></span> +420 731 046 883
+                            <span class="fa fa-phone"></span> +420 737 747 422
                             <hr>
-                            <span class="fa fa-envelope"></span> brozekm@gmail.com
+                            <span class="fa fa-envelope"></span> grotz1965@gmail.com
                         </div>
                     </div>
 
