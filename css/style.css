@@ -9695,14 +9695,9 @@ img.logo{
 }
 
 .left{
-  width: 10%;
-  font-weight: bold;
-}
-
-.center{
-  width: 75%;
+  width: 80%;
 }
 
 .right{
-  width: 15%;
+  width: 20%;
 }
