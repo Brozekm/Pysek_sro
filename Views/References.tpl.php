@@ -13,7 +13,7 @@ $tplHeaders->getHeader($tplData['title']);
                 <div class="col-md-10 mx-auto">
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
-                            <h4 class="card-title">Zakázky na stavbách pro ŘSD ČR</h4>
+                            <h4 class="card-title">Referenční stavby pro ŘSD ČR</h4>
 
                             <div id="2019">
                                 <a data-toggle="collapse" href="#collapse2019" role="button" aria-expanded="false" aria-controls="collapse2019"><h5 class="card-title">2019</h5></a>
@@ -346,25 +346,32 @@ $tplHeaders->getHeader($tplData['title']);
                 <div class="col-md-10 mx-auto">
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
-                            <a data-toggle="collapse" href="#collapseOthers" role="button" aria-expanded="false" aria-controls="collapseOthers"><h4 class="card-title">Ostatní zakázky</h4></a>
+                            <a data-toggle="collapse" href="#collapseOthers" role="button" aria-expanded="false" aria-controls="collapseOthers"><h4 class="card-title">Referenční stavby</h4></a>
                             <div class="collapse" id="collapseOthers">
-                            <h5 class="card-title">Uzel Plzeň, 3.stavba - přesmyk domažlické trati ( 2018 - 2020 )</h5>
-                            <p class="card-text">Potrubní vedení a pozemní komunikace</p>
-                            <hr>
-                            <h5 class="card-title">Areál SK Plzeň 1894 - SSM - rekonstrukce tréninkových ploch ( 2017 - 2018 )</h5>
-                            <p class="card-text">Sportovní hřiště a inženýrské sítě</p>
-                            <hr>
-                            <h5 class="card-title">Obnova rybníka Puchárenský ( 2018 - 2019 )</h5>
-                            <p class="card-text">Výpočet kubatur a zaměření vodního díla</p>
                             <hr>
                             <h5 class="card-title">Přehýšov - obytná zóna za mlýnem ( 2019 )</h5>
                             <p class="card-text">Pozemní komunikace a potrubní vedení</p>
-                            <hr>
-                            <h5 class="card-title">II/207 modernizace silnice Smilob - Lažany ( 2018 - 2019 )</h5>
-                            <p class="card-text">Pozemní komunikace, opěrné zdi , geometrický plán</p>
-                            <hr>
-                            <h5 class="card-title">Škoda Electric - úpravy areálu ( 2017 - 2019 )</h5>
-                            <p class="card-text">Pozemní komunikace, inženýrské sítě</p>
+                                <hr>
+                                <h5 class="card-title">Nexen Tire Europe (2019)</h5>
+                                <p class="card-text">Hrubé terénní práce a výpočty kubatur</p>
+                                <hr>
+                                <h5 class="card-title">Uzel Plzeň, 3.stavba - přesmyk domažlické trati ( 2018 - 2020 )</h5>
+                                <p class="card-text">Potrubní vedení a pozemní komunikace</p>
+                                <hr>
+                                <h5 class="card-title">II/207 modernizace silnice Smilov - Lažany ( 2018 - 2019 )</h5>
+                                <p class="card-text">Pozemní komunikace, opěrné zdi , geometrický plán
+                                <hr>
+                                <h5 class="card-title">Obnova rybníka Puchárenský ( 2018 - 2019 )</h5>
+                                <p class="card-text">Výpočet kubatur a zaměření vodního díla</p>
+                                <hr>
+                                <h5 class="card-title">Škoda Electric - úpravy areálu ( 2017 - 2019 )</h5>
+                                <p class="card-text">Pozemní komunikace, inženýrské sítě</p>
+                                <hr>
+                                <h5 class="card-title">Areál SK Plzeň 1894 - SSM - rekonstrukce tréninkových ploch ( 2017 - 2018 )</h5>
+                                <p class="card-text">Sportovní hřiště a inženýrské sítě</p>
+                                <hr>
+                                <h5 class="card-title">Retenční nádrže v povodí Okrouhlického potoka (2017)</h5>
+                                <p class="card-text">Vytyčení zaměření vodních nádrží</p>
                             </div>
                         </div>
                     </div>

@@ -13,10 +13,9 @@ $tplHeaders->getContactHeader($tplData['title']);
                 <div class="col-md-4">
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
-                            <img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <!--<img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">-->
                             <h5 class="card-title">Martin Brožek</h5>
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
                             <span class="fa fa-phone"></span> +420 605 732 874
                             <hr>
@@ -28,10 +27,9 @@ $tplHeaders->getContactHeader($tplData['title']);
                 <div class="col-md-4">
                     <div class="card shadow mb-1" >
                         <div class="card-body text-center">
-                            <img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <!--<img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">-->
                             <h5 class="card-title">Ing. Ivan Pyšek</h5>
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
                             <span class="fa fa-phone"></span> +420 603 106 529
                             <hr>
@@ -43,10 +41,9 @@ $tplHeaders->getContactHeader($tplData['title']);
                 <div class="col-md-4">
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
-                            <img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                            <!--<img src="images/trimble.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">-->
                             <h5 class="card-title">Ing. Martin Grotz</h5>
                             <h5 class="card-title" style="color: gray; font-size: 16px">Geodet</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <hr>
                             <span class="fa fa-phone"></span> +420 737 747 422
                             <hr>
@@ -97,7 +94,7 @@ $tplHeaders->getContactHeader($tplData['title']);
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="message">Zpráva</label>
-                                <textarea name="message" id="message" rows="15" cols="30" class="form-control"  placeholder="Zde pište zprávu..." style="height: 150px !important;" required></textarea>
+                                <textarea name="message" id="message" rows="15" cols="30" class="form-control"  placeholder="Zde pište zprávu..." style="height: 150px !important; resize: none" required></textarea>
                             </div>
                         </div>
 
@@ -122,7 +119,7 @@ $tplHeaders->getContactHeader($tplData['title']);
                         <p class="mb-4">CZ27969541</p>
 
                         <p class="mb-0 font-weight-bold">Číslo účtu</p>
-                        <p class="mb-4">181 039 050/0600</p>
+                        <p class="mb-4">MONETA Money Bank: 181039050/0600</p>
 
 
 
