@@ -127,51 +127,160 @@ class ZakladSablona{
     }
     public function getFooter(){
         ?>
-
+        <section class="d-print-none">
         <div class="text-center" >
-            <h3 style="color: gray; font-family: Arial; padding: 10px">Spolupracujeme</h3>
+            <h3 style="background-color: #47B8E9;font-weight: bold; color: white; padding: 10px">Spolupracujeme:</h3>
         </div>
+        <hr>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="container">
-                    <div class="row">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
                         <div class="col-3">
-                            <img src="images/vida.png" class="rounded" width="90%" >
+                            <p>AVOS Plzeň, spol. s r.o.</p>
+                            <p>AZ Prezip a.s.</p>
+                            <p>BAGGER BS, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
                         </div>
                         <div class="col-3">
-                            <img src="images/swietelsky.jpg" class="rounded" width="90%" >
+                            <p>BIGGEST s.r.o.</p>
+                            <p>BONA FIDE Plzeň, s.r.o.</p>
+                            <p>D Beton</p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
                         </div>
                         <div class="col-3">
-                            <img src="images/strabag.png" class="rounded" width="90%">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
                         </div>
                         <div class="col-3">
-                            <img src="images/roadfin.jpg" class="rounded" width="90%">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p>GREEN KAVO s.r.o.</p>
+                            <p>HOCHTIEF CZ a.s.</p>
+                            <p>HSF Systém a.s.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
+                        </div>
+                        <div class="col-3">
+                            <p>INVESTBAU CZ s.r.o.</p>
+                            <p>Pflaument Investment s.r.o.</p>
+                            <p>PRENTICE s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
                         </div>
                     </div>
                  </div>
             </div>
             <div class="carousel-item">
-              <div class="container">
-                    <div class="row">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
                         <div class="col-3">
-                            <img src="images/biggest1.png" class="rounded" width="90%" >
+                            <p>PROMONASTA s.r.o.</p>
+                            <p>PMK Drill s.r.o.</p>
+                            <p>SPORTOVNÍ PODLAHY ZLÍN, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
                         </div>
                         <div class="col-3">
-                            <img src="images/swietelsky.jpg" class="rounded" width="90%" >
-                        </div>
-                        <div class="col-3">
-                            <img src="images/strabag.png" class="rounded" width="90%">
-                        </div>
-                        <div class="col-3">
-                            <img src="images/roadfin.jpg" class="rounded" width="90%">
+                            <p>STAVBY TRNKA s.r.o.</p>
+                            <p>Stavitelství Kamínek s.r.o.</p>
+                            <p>STRABAG a.s.</p>
                         </div>
                     </div>
                  </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p>STRABAG Asfalt s.r.o.</p>
+                            <p>STRABAG Rail a.s.</p>
+                            <p>TERRASYSTEM, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
+                        </div>
+                        <div class="col-3">
+                            <p>VIDA GROUP s.r.o.</p>
+                            <p>Vodohospodářské stavby spol s.r.o.</p>
+                            <p>Marek Bořík, inženýrská činnost</p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -183,6 +292,7 @@ class ZakladSablona{
             <span class="sr-only">Next</span>
           </a>
         </div>
+        </section>
 
         <!-- loader -->
         <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
@@ -202,51 +312,160 @@ class ZakladSablona{
 
     public function getGrayFooter(){
         ?>
-        <section class="bg-light">
+        <section class="bg-light d-print-none">
         <div class="text-center" >
-            <h3 style="color: gray; font-family: Arial; padding: 10px">Spolupracujeme</h3>
+            <h3 style="background-color: #47B8E9;font-weight: bold; color: white; padding: 10px">Spolupracujeme:</h3>
         </div>
+        <hr>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="container">
-                    <div class="row">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
                         <div class="col-3">
-                            <img src="images/vida.png" class="rounded" width="90%" >
+                            <p>AVOS Plzeň, spol. s r.o.</p>
+                            <p>AZ Prezip a.s.</p>
+                            <p>BAGGER BS, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
                         </div>
                         <div class="col-3">
-                            <img src="images/swietelsky.jpg" class="rounded" width="90%" >
+                            <p>BIGGEST s.r.o.</p>
+                            <p>BONA FIDE Plzeň, s.r.o.</p>
+                            <p>D Beton</p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
                         </div>
                         <div class="col-3">
-                            <img src="images/strabag.png" class="rounded" width="90%">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
                         </div>
                         <div class="col-3">
-                            <img src="images/roadfin.jpg" class="rounded" width="90%">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p>GREEN KAVO s.r.o.</p>
+                            <p>HOCHTIEF CZ a.s.</p>
+                            <p>HSF Systém a.s.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
+                        </div>
+                        <div class="col-3">
+                            <p>INVESTBAU CZ s.r.o.</p>
+                            <p>Pflaument Investment s.r.o.</p>
+                            <p>PRENTICE s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
                         </div>
                     </div>
                  </div>
             </div>
             <div class="carousel-item">
-              <div class="container">
-                    <div class="row">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
                         <div class="col-3">
-                            <img src="images/biggest1.png" class="rounded" width="90%" >
+                            <p>PROMONASTA s.r.o.</p>
+                            <p>PMK Drill s.r.o.</p>
+                            <p>SPORTOVNÍ PODLAHY ZLÍN, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
                         </div>
                         <div class="col-3">
-                            <img src="images/swietelsky.jpg" class="rounded" width="90%" >
-                        </div>
-                        <div class="col-3">
-                            <img src="images/strabag.png" class="rounded" width="90%">
-                        </div>
-                        <div class="col-3">
-                            <img src="images/roadfin.jpg" class="rounded" width="90%">
+                            <p>STAVBY TRNKA s.r.o.</p>
+                            <p>Stavitelství Kamínek s.r.o.</p>
+                            <p>STRABAG a.s.</p>
                         </div>
                     </div>
                  </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="container d-none d-lg-block">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p>STRABAG Asfalt s.r.o.</p>
+                            <p>STRABAG Rail a.s.</p>
+                            <p>TERRASYSTEM, s.r.o.</p>
+                        </div>
+                        <div class="col-4">
+                            <h5 style="color: gray">BIGGEST construct s.r.o.</h5>
+                            <h5 style="color: gray">ROADFIN STAVBY s.r.o.</h5>
+                            <h5 style="color: gray">SWIETELSKY stavební s.r.o.</h5>
+                        </div>
+                        <div class="col-3">
+                            <p>VIDA GROUP s.r.o.</p>
+                            <p>Vodohospodářské stavby spol s.r.o.</p>
+                            <p>Marek Bořík, inženýrská činnost</p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- smaller screen -->
+                 <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-around text-center">
+                        <div class="col-3">
+                            <p style="font-size: 3vw">BIGGEST construct s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">ROADFIN STAVBY s.r.o.</p>
+                        </div>
+                        <div class="col-3">
+                            <p style="font-size: 3vw">SWIETELSKY stavební s.r.o.</p>
+                        </div>
+                    </div>
+                 </div>
+
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
