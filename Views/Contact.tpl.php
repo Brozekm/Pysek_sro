@@ -158,7 +158,7 @@ if($tplData['podminka']==true){
             $("#myModal").modal('show');
             setTimeout(function () {
                 $("#myModal").modal('hide');
-            },3000)
+            },4000)
         },0)
     });
 </script>
