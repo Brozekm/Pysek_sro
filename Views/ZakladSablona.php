@@ -487,8 +487,7 @@ class ZakladSablona{
         <script src="js/jquery.stellar.min.js"></script>
         <script src="js/aos.js"></script>
         <script src="js/main.js"></script>
-        </body>
-        </html>
+
 
 
     <?php

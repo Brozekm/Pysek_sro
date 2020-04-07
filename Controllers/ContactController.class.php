@@ -16,13 +16,14 @@ class ContactController implements IController {
         //// vsechna data sablony budou globalni
         global $tplData;
         $tplData = [];
-
+        $tplData['podminka']=false;
         if(isset($_POST['Odeslat'])){
             if(isset($_POST['firstName'])){
                 if(isset($_POST['lastName'])){
                     if(isset($_POST['email'])){
                         if (isset($_POST['subject'])){
                             if(isset($_POST['message'])){
+                                $tplData['podminka'] = true;
                                 $fname = htmlspecialchars($_POST['firstName']);
                                 $lname = htmlspecialchars($_POST['lastName']);
                                 $mailFrom = htmlspecialchars($_POST['email']);

@@ -63,16 +63,16 @@ $tplHeaders->getContactHeader($tplData['title']);
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="modal fade" id="myModal">
-                        <div class="modal-dialog modal-sm">
+                        <div class="modal-dialog modal-md">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1>Title</h1>
+                                    <h3 style="background-color: #47B8E9;width: 100%; color: white; padding: 10px"><img src="images/PIP_10.jpg" alt="Logo" style="width:40px; border-radius: 50%">  Email byl úspěšně odeslán.</h3>
                                 </div>
                                 <div class="modal-body">
-                                    <p>This is BODY</p>
+                                    <h4>Děkujeme za Váš zájem. </h4>
                                 </div>
                                 <div class="modal-footer">
-                                    <p>footer</p>
+                                    <input type="submit" value="Zavřít" class="btn btn-primary btn-md text-white" data-dismiss="modal">
                                 </div>
                             </div>
                         </div>
@@ -117,15 +117,7 @@ $tplHeaders->getContactHeader($tplData['title']);
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <input type="submit" name="Odeslat" class="btn btn-primary btn-md text-white">
-                               <!-- <?php
-                                    if (isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
-                                        ?>
-                                        <script type="text/javascript">
-                                            myFce();
-                                        </script>
-                                        <?php
-                                    }
-                                ?>-->
+
                             </div>
                         </div>
 
@@ -153,19 +145,25 @@ $tplHeaders->getContactHeader($tplData['title']);
             </div>
         </div>
     </section>
-<!--
+
+
+<?php
+$tplHeaders->getGrayFooter();
+
+if($tplData['podminka']==true){
+?>
 <script type="text/javascript">
-    $(document).ready(function myFce() {
+    $(document).ready(function () {
         setTimeout(function () {
             $("#myModal").modal('show');
             setTimeout(function () {
                 $("#myModal").modal('hide');
             },3000)
-        },1000)
-    })
-</script>-->
-<?php
-$tplHeaders->getGrayFooter();
-
+        },0)
+    });
+</script>
+    <?php
+}
 ?>
-
+</body>
+</html>
