@@ -16,7 +16,7 @@ $tplHeaders->getHeader($tplData['title']);
                             <h4 class="card-title">Referenční stavby pro ŘSD ČR</h4>
                             <hr>
                             <div id="2019">
-                            <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2019" role="button" aria-expanded="false" aria-controls="collapse2019"></button> 2019</h5>
+                            <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2019" role="button" aria-expanded="false" aria-controls="collapse2019"></button> 2019</h5>
 
                             <div class="collapse show" id="collapse2019">
 
@@ -43,9 +43,9 @@ $tplHeaders->getHeader($tplData['title']);
                             <hr>
 
                             <div id="2018">
-                                <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2018" role="button" aria-expanded="false" aria-controls="collapse2018"></button> 2018</h5>
+                                <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2018" role="button" aria-expanded="false" aria-controls="collapse2018"></button> 2018</h5>
 
-                                <div class="collapse show" id="collapse2018">
+                                <div class="collapse" id="collapse2018">
 
                                 <div class="row">
                                     <div class="column left">
@@ -97,7 +97,7 @@ $tplHeaders->getHeader($tplData['title']);
                             <hr>
 
                             <div id="2017">
-                                <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2017" role="button" aria-expanded="false" aria-controls="collapse2017"></button> 2017</h5>
+                                <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2017" role="button" aria-expanded="false" aria-controls="collapse2017"></button> 2017</h5>
 
                                 <div class="collapse" id="collapse2017">
                                 <div class="row">
@@ -177,7 +177,7 @@ $tplHeaders->getHeader($tplData['title']);
                             <hr>
 
                             <div id="2016">
-                                <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2016" role="button" aria-expanded="false" aria-controls="collapse2016"></button> 2016</h5>
+                                <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2016" role="button" aria-expanded="false" aria-controls="collapse2016"></button> 2016</h5>
 
                                 <div class="collapse" id="collapse2016">
                                 <div class="row">
@@ -239,7 +239,7 @@ $tplHeaders->getHeader($tplData['title']);
                             <hr>
 
                             <div id="2015">
-                                <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2015" role="button" aria-expanded="false" aria-controls="collapse2015"></button> 2015</h5>
+                                <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2015" role="button" aria-expanded="false" aria-controls="collapse2015"></button> 2015</h5>
 
                                 <div class="collapse" id="collapse2015">
                                 <div class="row">
@@ -301,7 +301,7 @@ $tplHeaders->getHeader($tplData['title']);
                             <hr>
 
                             <div id="2014">
-                                <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapse2014" role="button" aria-expanded="false" aria-controls="collapse2014"></button> 2014</h5>
+                                <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapse2014" role="button" aria-expanded="false" aria-controls="collapse2014"></button> 2014</h5>
                                 <div class="collapse" id="collapse2014">
                                 <div class="row">
                                     <div class="column left">
@@ -347,7 +347,7 @@ $tplHeaders->getHeader($tplData['title']);
                 <div class="col-md-10 mx-auto">
                     <div class="card shadow mb-1">
                         <div class="card-body text-center">
-                            <h5 class="card-title"><button class="btn fa fa-plus" data-toggle="collapse" href="#collapseOthers" role="button" aria-expanded="false" aria-controls="collapseOthers"></button> Referenční stavby</h5>
+                            <h5 class="card-title"><button class="btn fa fa-plus ref-button" data-toggle="collapse" href="#collapseOthers" role="button" aria-expanded="false" aria-controls="collapseOthers"></button> Referenční stavby</h5>
                             <div class="collapse" id="collapseOthers">
                             <hr>
                             <h5 class="card-title">Přehýšov - obytná zóna za mlýnem ( 2019 )</h5>
