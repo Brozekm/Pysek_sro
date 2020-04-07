@@ -62,7 +62,23 @@ $tplHeaders->getContactHeader($tplData['title']);
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1>Title</h1>
+                                </div>
+                                <div class="modal-body">
+                                    <p>This is BODY</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <p>footer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <form action="" method="POST">
+
 
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-md-0">
@@ -94,13 +110,22 @@ $tplHeaders->getContactHeader($tplData['title']);
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <label class="text-black" for="message">Zpráva</label>
-                                <textarea name="message" id="message" rows="15" cols="30" class="form-control"  placeholder="Zde pište zprávu..." style="height: 150px !important; resize: none" required></textarea>
+                                <textarea name="message" id="message" rows="15" cols="30" class="form-control" placeholder="Zde pište zprávu..." style="height: 150px !important; resize: none" required></textarea>
                             </div>
                         </div>
 
                         <div class="row form-group">
                             <div class="col-md-12">
                                 <input type="submit" name="Odeslat" class="btn btn-primary btn-md text-white">
+                               <!-- <?php
+                                    if (isset($_POST['firstName']) && isset($_POST['lastName']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
+                                        ?>
+                                        <script type="text/javascript">
+                                            myFce();
+                                        </script>
+                                        <?php
+                                    }
+                                ?>-->
                             </div>
                         </div>
 
@@ -128,7 +153,19 @@ $tplHeaders->getContactHeader($tplData['title']);
             </div>
         </div>
     </section>
+<!--
+<script type="text/javascript">
+    $(document).ready(function myFce() {
+        setTimeout(function () {
+            $("#myModal").modal('show');
+            setTimeout(function () {
+                $("#myModal").modal('hide');
+            },3000)
+        },1000)
+    })
+</script>-->
 <?php
 $tplHeaders->getGrayFooter();
 
 ?>
+

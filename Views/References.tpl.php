@@ -300,7 +300,6 @@ $tplHeaders->getHeader($tplData['title']);
 
                             <div id="2014">
                                 <a data-toggle="collapse" href="#collapse2014" role="button" aria-expanded="false" aria-controls="collapse2014"><h5 class="card-title">2014</h5></a>
-
                                 <div class="collapse" id="collapse2014">
                                 <div class="row">
                                     <div class="column left">
@@ -377,6 +376,7 @@ $tplHeaders->getHeader($tplData['title']);
                     </div>
 
                 </div>
+
 
             </div>
         </div>
