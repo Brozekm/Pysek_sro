@@ -30,8 +30,12 @@ class ContactController implements IController {
                                 $subject = htmlspecialchars($_POST['subject']);
                                 $message = htmlspecialchars($_POST['message']);
 
+                                $mailTo = "brozek.m99@gmail.com";
+                                $headers = "From: ".$mailFrom;
                                 $txt = "Příchozí email z webové stránky wwww.pysek.cz.\n"
                                         ."Jméno: ".$fname." ".$lname."\n\n".$message;
+
+                                mail($mailTo,$subject,$txt,$headers);
                             }
                         }
                     }
